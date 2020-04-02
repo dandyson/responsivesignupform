@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!--Custom stylesheet-->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <div class="colourContainer">
+      <div class="container">
+        <div class="row">
+          <div class="col" id="textSection">
+            <h1>Learn to code by watching others</h1>
+            <p>
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+          <div class="col">
+            <button id="ctaButton">
+              <strong>Try it free 7 days</strong
+              ><span> then $20/mo. thereafter</span>
+            </button>
+            <div id="formBox">
+              <!--User Form-->
+              <form id="userForm">
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="First Name"
+                />
+                <!--First Name Error-->
+                <div id="firstError"></div>
+
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name"
+                />
+                <!--Last Name Error-->
+                <div id="lastError"></div>
+
+                <input
+                  type="text"
+                  id="eaddress"
+                  name="emailaddress"
+                  placeholder="Email Address"
+                />
+                <!--Email Error-->
+                <div id="emailError"></div>
+
+                <input
+                  type="password"
+                  id="pword"
+                  name="password"
+                  placeholder="Password"
+                />
+                <!--Password Error-->
+                <div id="passError"></div>
+
+                <button type="submit" id="claimButton">
+                  CLAIM YOUR FREE TRIAL
+                </button>
+
+                <p id="termsText">
+                  By clicking the button, you are agreeing to our
+                  <a href="#">Terms and Services.</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Dan Dyson (Terraform Media)</a>.
+        </p>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
