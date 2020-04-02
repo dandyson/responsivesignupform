@@ -39,6 +39,15 @@ form.addEventListener("submit", e => {
   if (eaddress.value === "" || eaddress.value === null) {
     emailMessage.push("Looks like this is not an email");
     eaddress.style.border = "2px solid red";
+  } //Email format validation
+  else if (
+    /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(eaddress.value)
+  ) {
+    return true;
+  } else {
+    emailMessage.push("Incorrect email, try again!");
+    console.log("False!");
+    eaddress.style.border = "2px solid red";
   }
   if (emailMessage.length > 0) {
     e.preventDefault();
