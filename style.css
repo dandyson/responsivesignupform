@@ -16,7 +16,7 @@ body {
 
 .row {
   position: relative;
-  top: 120px;
+  top: 100px;
 }
 
 .col {
@@ -28,7 +28,7 @@ body {
 
 #textSection {
   color: white;
-  margin: 15% 0 0 5%;
+  margin: 12% 0 0 5%;
   text-align: left;
 }
 
