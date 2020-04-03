@@ -1,8 +1,10 @@
+Welcome to my first Frontend Mentor challenge! Here is my attempt at the introductionary sign-up form component.
+
+
+
 # Frontend Mentor - Intro component with sign up form
 
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
-
-Here is my attempt at the introductionary sign-up form component from Front-End Mentors. 
 
 ## Welcome! 👋
 
