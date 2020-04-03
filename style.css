@@ -28,11 +28,12 @@ body {
 
 #textSection {
   color: white;
-  margin: 12% 0 0 5%;
+  margin: 15% 0 0 5%;
   text-align: left;
 }
 
 #textSection h1 {
+  font-size: 3em;
   margin: 20px;
   font-weight: 700;
 }
